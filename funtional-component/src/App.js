@@ -4,6 +4,7 @@ import { StateWithArray } from "./components/StateWithArray"
 import { TitelChange } from "./components/TitelChange"
 import { StateWithObject } from "./components/StateWithObject"
 import { UseRef } from "./components/UseRef"
+import { UseReducer } from "./components/UseReducer"
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       {/* <TitelChange/> */}
       <StateWithObject/>
       <UseRef/>
+      <UseReducer/>
     </>
   );
 }
